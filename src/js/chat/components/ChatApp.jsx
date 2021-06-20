@@ -159,8 +159,6 @@ class ChatApp extends React.Component {
   }
 
   render() {
-    console.log('ATUL WAS HERE');
-    // console.log(this.state);
     if (this.state.error) {
       return <div>Error: {this.state.error.message}</div>;
     }
